@@ -1,0 +1,91 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: darkslateblue;
+}
+p, h2{
+    margin: 10px;
+}
+p, li{
+    padding: 5px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vrt{
+    flex-direction: column;
+}
+.hrz{
+    flex-direction: row;
+}
+#main_block{
+    min-height: 100%;
+}
+#b23456, #b235, #a2, #a5{
+    flex-grow: 1;
+}
+#a4{
+    width: 15%;
+}
+#b2356{
+    width: 85%;
+}
+#b25{
+    width: 17.6470588%;
+}
+#a3{
+    width: 82.3529412%;
+}
+#a1, #a6{
+    flex-basis: 150px;
+}
+#a2, #a5{
+    flex-basis: 250px;
+}
+#X, #Y{
+    flex-basis: 25%;
+}
+#text1, #text6{
+    flex-basis: 75%;
+}
+.area{
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.left-al{
+    text-align: left;
+    align-items: flex-start;
+}
+.right-al{
+    text-align: right;
+    align-items: flex-end;
+}
+.center-al{
+    text-align: center;
+    align-items: center;
+}
+.justify-al{
+    text-align: justify;
+}
+#a1, #a6{
+    background-color: cornflowerblue;
+}
+#a2, #a4{
+    background-color: lightpink;
+}
+#a3{
+    background-color: white;
+}
+#a5{
+    background-color: lightgreen;
+}

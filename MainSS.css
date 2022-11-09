@@ -1,0 +1,88 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+p, h2, img{
+    margin: 10px;
+}
+p, li{
+    padding: 5px;
+}
+tr, td, area, html, body, table{
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    height: 100%;
+}
+.inner_div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#area2, #area4, #area5{
+    width: 15%;
+}
+#row1, #row4{
+    height: 150px;
+}
+#row2, #row3{
+    height: 250px;
+}
+#Y, #X{
+    width: 25%;
+}
+#bot_text_div, #head_text_div{
+    width: 75%;
+}
+td{
+    border-radius: 25px;
+}
+ul, ol{
+    padding-left: 40px;
+}
+.left-al{
+    text-align: left;
+}
+.right-al{
+    text-align: right;
+}
+.center-al{
+    text-align: center;
+}
+.justify-al{
+    text-align: justify;
+}
+#area1, #area6{
+    background-color: cornflowerblue;
+}
+#area2, #area4{
+    background-color: lightpink;
+}
+#area3{
+    background-color: white;
+}
+#area5{
+    background-color: lightgreen;
+}
+@media (max-width: 1000px) {
+    body{
+        font-size: 30px;
+    }
+    #area2, #area4, #area5{
+        width: 25%;
+    }
+    #row1, #row4{
+        height: 240px;
+    }
+    #row2, #row3{
+        height: 400px;
+    }
+}
